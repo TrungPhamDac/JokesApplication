@@ -14,11 +14,6 @@ class JokesData {
         "The teacher asked Jimmy,\"Why is your cat at school today Jimmy?\" Jimmy replied crying, \"Because I heard my daddy tell my mommy, 'I am going to eat that pussy once Jimmy leaves for school today!'\""),
     Joke("4",
         "A housewife, an accountant and a lawyer were asked \"How much is 2+2?\" The housewife replies: \"Four!\". The accountant says: \"I think it's either 3 or 4. Let me run those figures through my spreadsheet one more time.\" The lawyer pulls the drapes, dims the lights and asks in a hushed voice, \"How much do you want it to be?\"")
-
-    // Joke("1", "A"),
-    // Joke("2", "B"),
-    // Joke("3", "C"),
-    // Joke("4", "D")
   ];
 
   Future<List<Joke>> getUnvotedJokes(List<String> votedJokesIds) async {
